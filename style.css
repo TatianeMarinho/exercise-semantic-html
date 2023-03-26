@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(201, 173, 167);
+}
+
+header{
+    background-color: rgb(154, 140, 152);
+}
+
+h1{
+    color: rgb(242, 233, 228);
+    text-align: center;
+    text-decoration: overline;
+}
+
+nav{
+    background-color: rgb(242, 233, 228);
+    text-align: center;
+    
+}
