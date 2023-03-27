@@ -1,5 +1,12 @@
 body{
     background-color: rgb(201, 173, 167);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(34, 34, 59);
+}
+
+main{
+float: left;
+width: 65%;
 }
 
 header{
@@ -15,5 +22,96 @@ h1{
 nav{
     background-color: rgb(242, 233, 228);
     text-align: center;
-    
+}
+
+nav a{
+    padding-right: 15px;
+}
+
+h3 {
+    color: rgb(34, 34, 59);
+    text-align: center;
+}
+
+h4{
+    color: rgb(34, 34, 59);
+    text-align: center;
+}
+
+#classificacao{
+    margin: auto;
+    display: block;
+    width: 30%;
+
+}
+
+table,tr td {
+    border: 1px solid black;
+}
+
+table{
+    margin: auto;
+}
+table, thead{
+    margin: auto;
+}
+
+#predadores{
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+p{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+#visao{
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+#referencias{
+    background-color: rgb(154, 140, 152);
+    color: rgb(242, 233, 228);
+}
+
+#referencias h3{
+    text-align: left;
+    color: rgb(242, 233, 228);
+}
+
+ul li a{
+    text-align: left;
+    color: rgb(242, 233, 228);
+}
+
+aside{
+    float: right;
+    margin-top: 300px;
+    width: 30%;
+    background-color: rgb(242, 233, 228);
+
+}
+aside a img{
+    display: block;
+    height: 200px;
+    padding: 5%;
+    text-align: center;
+}
+
+aside p{
+    text-align: center;
+}
+
+footer{
+    display: block;
+}
+
+footer p{
+    display: block;
+    text-align: right;
 }
